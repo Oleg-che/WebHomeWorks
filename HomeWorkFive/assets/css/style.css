@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'AlfaSlabOne';
+    src: url(../fonts/AlfaSlabOne-Regular.ttf);
+    font-family: 'Cairo';
+    src: url(../fonts/Cairo-SemiBold.ttf);
+    font-family: 'CarterOne';
+    src: url(../fonts/CarterOne-Regular.ttf);
+    font-family: 'Caveat';
+    src: url(../fonts/Caveat-SemiBold.ttf);
+    font-family: 'Cookie';
+    src: url(../fonts/Cookie-Regular.ttf);
+    font-family: 'DMMono';
+    src: url(../fonts/DMMono-Regular.ttf);
+    font-family: 'Mali';
+    src: url(../fonts/Mali-Regular.ttf);
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald-Light.ttf);
+    font-display: swap;
+}
+body {
+    margin: 0px;
+}
+article {
+    height: 100vh;
+    width: 40vw;
+    background:url(../img/road.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+    border-left: 40px solid rgb(197, 12, 12);
+    border-right: 40px solid rgb(57, 57, 207);
+    margin: 0px auto;
+}
+.first {
+    font-size: 3em ;
+    color: rgb(250, 95, 95);
+    font-family: 'AlfaSlabOne';
+}
+.second {
+    color: white;
+    font-size: 20px;
+    font-family: 'Cairo';
+}
+.third {
+    color: white;
+    font-size: 30px;
+    font-family: 'CarterOne';
+}
+.fourth {
+    color: white;
+    font-size: 15px;
+    font-family: 'Caveat';
+}
+.fiveth {
+    color: orange;
+    text-shadow: 0px 0px 10px orange;
+    font-size: 20px;
+    font-family: 'Cookie';
+}
+.sixth {
+    color: white;
+    font-size: 25px;
+    font-family: 'DMMono';
+}
+.seventh {
+    transform: rotate(3deg);
+    background-color: white;
+    box-shadow: 0px 0px 15px white;
+    border-radius: 5px;
+    font-family: 'Mali';
+}
+.eighth {
+    text-align: right;
+    color: white;
+    font-family: 'Oswald';
+}
+span {
+    color: rgb(235, 79, 79);
+}
