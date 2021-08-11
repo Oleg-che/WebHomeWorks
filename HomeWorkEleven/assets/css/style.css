@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto 1fr auto ;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr auto;
+    grid-template-areas: 
+        "main-plate main-plate main-plate"
+        "main-plate main-plate main-plate"
+        "main-plate main-plate main-plate"
+        "handbags-plate watch-plate shoes-plate";
+    gap: 20px;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+.main.plate {
+    background-image: url(../img/main.jpg);
+    grid-area: main-plate ;
+    height: 500px;
+}
+.handbags.plate {
+    background-image: url(../img/handbag.jpg);
+    grid-area: handbags-plate ;
+}
+.watch.plate {
+    background-image: url(../img/watch.jpg);
+    grid-area: watch-plate ;
+}
+.shoes.plate {
+    background-image: url(../img/shoes.jpg);
+    grid-area: shoes-plate ;
+}
+.plate {
+    height: 150px;
+    background-size:cover;
+    background-position: center;
+}
+.component-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
